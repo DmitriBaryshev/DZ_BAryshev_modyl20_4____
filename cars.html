@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cars</title>
+</head>
+<body>
+    <h1>Car Brands:</h1>
+    <ul>
+        {% for brand in car_brands %}
+            <li>{{ brand }}</li>
+        {% endfor %}
+    </ul>
+
+    <h1>Car Types:</h1>
+    <ul>
+        {% for type in car_types %}
+            <li>{{ type }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
